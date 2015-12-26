@@ -1,0 +1,27 @@
+{
+  "name": "colors-sass",
+  "version": "1.0.0",
+  "description": "Alternate colors for the default css string names",
+  "main": "css/colors.css",
+  "scripts": {
+    "start": "node-sass sass/colors.scss css/colors.css && node-sass --output-style compressed sass/colors.scss css/colors.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmrs/colors-sass.git"
+  },
+  "keywords": [
+    "sass",
+    "colors",
+    "css"
+  ],
+  "author": "mrmrs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmrs/colors-sass/issues"
+  },
+  "homepage": "https://github.com/mrmrs/colors-sass#readme",
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  }
+}
